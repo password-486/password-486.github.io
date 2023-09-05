@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'iceJaram-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HakgyoansimGaeulsopungB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimGaeulsopungB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    color:#3f2bf3; text-align: center; text-decoration-line: underline;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    background-color: rgb(146, 245, 245);
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 70px;
+    font-size: 50px;
+    box-shadow: 7px 5px #949090;
+}
+
+h2 {
+    color:#a715fc;
+    border-style: double;
+    font-family: 'HakgyoansimGaeulsopungB';
+    font-size: 35px;
+}
+
+h2::first-letter {
+    font-size: 30px;
+}
+
+h2:hover {
+    background-color: #4ef864;
+}
+
+h2:hover::first-letter {
+    color:#ffffff;
+}
+
+p {
+    text-indent: 20px;
+    color:#000000;
+    background-color: #e8c7fc;
+    border-style:groove;
+    line-height:180%;
+    font-family:'iceJaram-Rg';
+    font-size:20px;
+}
